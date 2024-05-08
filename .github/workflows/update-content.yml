@@ -21,5 +21,5 @@ jobs:
           git config --global user.email " Freepalestine1948@tutanota.com"
           git config --global user.name "Github Actions"
           git add .
-          git commit -m "Automated content update"
+          git commit --allow-empty -m "Automated content update"
           git push
